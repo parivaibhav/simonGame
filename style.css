@@ -81,3 +81,11 @@ h1 {
 h2 {
   text-align: center;
 }
+
+ol {
+  font-size: 18px;
+  list-style-type: none;
+}
+.instruction {
+  margin: 10px 0;
+}
