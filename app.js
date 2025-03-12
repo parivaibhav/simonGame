@@ -84,18 +84,3 @@ function reset() {
   level = 0;
 }
 
-document.getElementById("toggleBtn").addEventListener("click", function () {
-  let body = document.body;
-  let icon = document.getElementById("icon");
-
-
-  body.classList.toggle("dark-mode");
-
-
-  // Toggle icon between sun and moon
-  if (body.classList.contains("dark-mode")) {
-      icon.classList.replace("fa-moon", "fa-sun");
-  } else {
-      icon.classList.replace("fa-sun", "fa-moon");
-  }
-});
